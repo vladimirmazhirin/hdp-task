@@ -1,0 +1,1 @@
+[{"name":"menu_icon","section":"other","default_value":"chevron-right","label":"Menu Icon","type":"string"},{"name":"hide_link_menu_items","section":"Behavior","default_value":"false","label":"Hide link menu items","type":"boolean"},{"name":"hide_scripted_filtered_lists","section":"Behavior","default_value":"false","label":"Hide scripted/filtered lists","type":"boolean"}]

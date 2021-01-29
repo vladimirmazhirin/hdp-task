@@ -1,0 +1,18 @@
+<div class="mycompany-sidemenu-wrapper">
+  <button class="btn mycompany-sidemenu-btn" role="button">
+    <i class="fa fa-{{::options.menu_icon}}"></i> 
+  </button>
+  <div class="mycompany-sidemenu">
+    <nav class="navbar-inverse navbar">
+      <div class="navbar-header">
+        <div class="navbar-brand">
+          <img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" />
+        </div>
+      </div>
+    </nav>
+    <ul class="list-group text-left text-uppercase">
+      <li ng-if="options.hide_scripted_filtered_lists" ng-repeat="item in visibleItems" class="list-group-item" ng-include="'myCompanySideMenuTemplate'" role="presentation"></li>
+      <li ng-if="!options.hide_scripted_filtered_lists" ng-repeat="item in visibleItems" class="list-group-item" ng-include="'myCompanySideMenuTemplate_scripted_filtered'" role="presentation"></li>
+    </ul>
+  </div>
+</div>

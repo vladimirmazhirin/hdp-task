@@ -1,0 +1,99 @@
+
+<!-- Add Incident form-->
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      Submit an Incident
+    </h4>
+  </div>
+  
+  <div class="panel-body">
+    <form>
+      <div class="form-group col-lg-6">
+        <label for="issue">Issue</label>
+        <input type="text"
+               class="form-control"
+               id="issue"
+               placeholder="Type your issue"
+               ng-model="data.newIncident.issue"
+               />
+      </div>
+
+      <div class="form-group col-lg-6">
+        <label for="urgency">Urgency</label>
+        <select class="form-control" 
+                id="urgency"
+                ng-model="data.newIncident.urgency">
+          <option value="1">High</option>
+          <option value="2">Medium</option>
+          <option value="3">Low</option>
+        </select>
+        <p ng-if="c.data.newIncident.urgency === '1'">
+          Are yiu sure you`re that important?
+        </p>
+      </div>
+
+      <div class="form-group col-lg-12">
+        <label for="description">Description </label>
+        <input type="text"
+               class="form-control"
+               id="description"
+               ng-model="data.newIncident.description"/>
+      </div>
+      
+      <div class="form-group col-lg-6">
+        <label for="watchlistField">Add user to watchlist</label>
+        <sn-record-picker id="watchlistField"
+                          field="watchlist"
+                          table="'sys_user'"
+                          display-field="'name'"
+                          value-field="'sys_id'"
+                          search-fields="'name'"
+                          multiple="true">
+        </sn-record-picker>
+      </div>
+
+      <div class="form-group col-lg-6">
+        <label for="attach">Attach files</label>
+        <input id="attach" type='file' ng-file-select="c.attachFiles($files)" multiple />
+      </div>
+    </form>
+  </div>
+  
+  <div class="panel-footer">
+    <button class="btn btn-success" 
+            ng-click="c.submit()"
+            ng-disabled="c.isValid() || c.submitting">
+      Submit<span ng-show="c.submitting">ting...</span>
+    </button>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

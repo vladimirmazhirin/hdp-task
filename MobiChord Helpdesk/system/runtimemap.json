@@ -1,0 +1,910 @@
+{
+  "system": {
+    "sys_user_role": true,
+    "agent_assist_recommendation": true,
+    "asmt_metric": true,
+    "asmt_signature": true,
+    "sys_atf_step_config": true,
+    "sys_atf_step": true,
+    "sys_client_extension_point": true,
+    "sys_script_client": true,
+    "dl_u_priority": true,
+    "sys_ui_extension_point": true,
+    "sys_ui_policy": true,
+    "sys_ui_script": true,
+    "connect_action": true,
+    "content_block": true,
+    "content_block_detail": true,
+    "content_block_programmatic": true,
+    "content_block_static": true,
+    "content_css": true,
+    "cxs_table_config": true,
+    "sys_relationship": true,
+    "sys_db_object": true,
+    "sys_email_client_template": true,
+    "sys_email_canned_message": true,
+    "sys_recipient_qualifier": true,
+    "sys_ui_context_menu": true,
+    "sys_embedded_help_content": true,
+    "sys_ui_list_control": true,
+    "cmn_map_page": true,
+    "cmn_schedule_page": true,
+    "sys_ui_style": true,
+    "cmn_timeline_page": true,
+    "sys_ui_macro": true,
+    "sys_ui_page": true,
+    "sysrule_view": true,
+    "sys_embedded_tour_step": true,
+    "scheduled_data_import": true,
+    "sys_ws_operation": true,
+    "sys_web_service": true,
+    "sys_transform_map": true,
+    "mid_selector_override": true,
+    "ecc_agent_capability": true,
+    "ecc_agent_capability_value_test": true,
+    "ecc_agent_property": true,
+    "ecc_agent_script_include": true,
+    "sys_script_ajax": true,
+    "process_step_approval": true,
+    "bsm_action": true,
+    "ci_identifier": true,
+    "discovery_classy": true,
+    "clone_cleanup_script": true,
+    "csm_field_map": true,
+    "csm_table_map": true,
+    "sys_declarative_action_assignment": true,
+    "diagrammer_action": true,
+    "sys_dictionary": true,
+    "discovery_port_probe": true,
+    "sys_ui_title": true,
+    "sys_transform_entry": true,
+    "sys_impex_map": true,
+    "sys_installation_exit": true,
+    "sys_ui_list_script_client": true,
+    "sys_ui_list_script_server": true,
+    "live_table_notification": true,
+    "mtg_definition": true,
+    "sys_navigator": true,
+    "sys_nav_link": true,
+    "pwd_cred_store": true,
+    "pwd_extension_type": true,
+    "discovery_probes": true,
+    "expert_panel_template": true,
+    "sysauto_query_builder": true,
+    "sysauto": true,
+    "sys_service_api": true,
+    "sysevent_email_style": true,
+    "chg_soc_style_rule_core": true,
+    "sys_listener_detail": true,
+    "sys_transform_script": true,
+    "item_option_new": true,
+    "sys_home": true,
+    "expert_panel_transition": true,
+    "expert_panel": true,
+    "expert_ui_policy": true,
+    "sys_app_module": true,
+    "sys_ui_module": true,
+    "sys_script_email": true,
+    "sysevent_email_template": true,
+    "sysevent_in_email_action": true,
+    "sysevent_email_action": true,
+    "sys_push_notif_act_script": true,
+    "sys_push_notif_msg_content": true,
+    "trigger_rule": true,
+    "sys_rest_message": true,
+    "scheduled_data_export": true,
+    "sys_soap_message_function": true,
+    "sys_soap_message": true,
+    "pa_scripts": true,
+    "pc_vendor_cat_item": true,
+    "sys_properties_category": true,
+    "metric_definition": true,
+    "sysauto_report": true,
+    "cmn_relative_duration": true,
+    "risk_conditions": true,
+    "cmn_schedule": true,
+    "sys_script": true,
+    "sys_extension_point": true,
+    "sys_script_fix": true,
+    "sys_processor": true,
+    "sysauto_script": true,
+    "sysevent_script_action": true,
+    "sys_script_include": true,
+    "sys_ui_action": true,
+    "sc_ic_aprvl_type_defn_staging": true,
+    "catalog_script_client": true,
+    "sc_cat_item": true,
+    "catalog_ui_policy": true,
+    "sc_cat_item_option": true,
+    "sc_cat_item_guide": true,
+    "sc_cat_item_producer": true,
+    "sc_ic_task_assign_defn_staging": true,
+    "user_criteria": true,
+    "sysrule_escalate": true,
+    "sp_ng_template": true,
+    "sp_instance": true,
+    "sp_search_source": true,
+    "sp_page": true,
+    "sp_portal": true,
+    "sp_css": true,
+    "sp_theme": true,
+    "sp_angular_provider": true,
+    "sp_widget": true,
+    "trend_definition": true,
+    "sys_ui_ng_action": true,
+    "sys_script_vtable": true,
+    "sn_templated_snip_note_template": true,
+    "sys_script_validator": true,
+    "sys_email_filter": true,
+    "sys_sg_data_item": true,
+    "sys_email_layout": true,
+    "sys_process_flow": true,
+    "sys_widgets": true,
+    "wf_element_activity": true,
+    "wf_activity_definition": true,
+    "wf_ui_policy": true
+  },
+  "Miscellaneous": {
+    "Dictionary Entries": {
+      "Active": {
+        "sys_id": "0931257d1b631c5013582136ec4bcbb4",
+        "sys_updated_on": "2021-01-18 10:17:24",
+        "SERVER_MOD_TIME": 1610957844000,
+        "LOCAL_MOD_TIME": 1611248488241,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488241,
+        "CURRENT_SERVER_MOD_TIME": 1610957844000
+      },
+      "Category": {
+        "sys_id": "0226a1351ba31c5013582136ec4bcb6d",
+        "sys_updated_on": "2021-01-18 10:17:24",
+        "SERVER_MOD_TIME": 1610957844000,
+        "LOCAL_MOD_TIME": 1611248488256,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488256,
+        "CURRENT_SERVER_MOD_TIME": 1610957844000
+      },
+      "Requestor": {
+        "sys_id": "0b3b55b91b631c5013582136ec4bcbcc",
+        "sys_updated_on": "2021-01-18 10:17:25",
+        "SERVER_MOD_TIME": 1610957845000,
+        "LOCAL_MOD_TIME": 1611248488292,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488292,
+        "CURRENT_SERVER_MOD_TIME": 1610957845000
+      },
+      "x_mobi_help_categories": {
+        "sys_id": "d431e5fd1b631c5013582136ec4bcbc7",
+        "sys_updated_on": "2021-01-18 10:17:25",
+        "SERVER_MOD_TIME": 1610957845000,
+        "LOCAL_MOD_TIME": 1611248489291,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489291,
+        "CURRENT_SERVER_MOD_TIME": 1610957845000
+      },
+      "Global Issue": {
+        "sys_id": "bf3fd97d1b631c5013582136ec4bcb77",
+        "sys_updated_on": "2021-01-18 10:17:24",
+        "SERVER_MOD_TIME": 1610957844000,
+        "LOCAL_MOD_TIME": 1611248489350,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489350,
+        "CURRENT_SERVER_MOD_TIME": 1610957844000
+      },
+      "Parent": {
+        "sys_id": "7f91edfd1b631c5013582136ec4bcb93",
+        "sys_updated_on": "2021-01-18 10:17:24",
+        "SERVER_MOD_TIME": 1610957844000,
+        "LOCAL_MOD_TIME": 1611248490225,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490225,
+        "CURRENT_SERVER_MOD_TIME": 1610957844000
+      },
+      "x_mobi_help_hd": {
+        "sys_id": "36d9f07d1befd85013582136ec4bcbc6",
+        "sys_updated_on": "2021-01-27 10:44:43",
+        "SERVER_MOD_TIME": 1611737083000,
+        "LOCAL_MOD_TIME": 1611745467203,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611745467203,
+        "CURRENT_SERVER_MOD_TIME": 1611737083000
+      }
+    }
+  },
+  "Service Portal": {
+    "Service Portal Pages": {
+      "hdp_test_page": {
+        "sys_id": "02e7bcc607712010ebecf2ae7c1ed0f0",
+        "sys_updated_on": "2021-01-20 12:23:40",
+        "SERVER_MOD_TIME": 1611138220000,
+        "LOCAL_MOD_TIME": 1611248488385,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488385,
+        "CURRENT_SERVER_MOD_TIME": 1611138220000
+      },
+      "hd_index": {
+        "sys_id": "ea47668707a12010ebecf2ae7c1ed0f2",
+        "sys_updated_on": "2021-01-11 12:47:37",
+        "SERVER_MOD_TIME": 1610362057000,
+        "LOCAL_MOD_TIME": 1611248489210,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489210,
+        "CURRENT_SERVER_MOD_TIME": 1610362057000
+      },
+      "help_desk_incidents_list": {
+        "sys_id": "9431807107fd2010ebecf2ae7c1ed0e1",
+        "sys_updated_on": "2021-01-19 13:45:13",
+        "SERVER_MOD_TIME": 1611056713000,
+        "LOCAL_MOD_TIME": 1611248490134,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490134,
+        "CURRENT_SERVER_MOD_TIME": 1611056713000
+      },
+      "hdp_ticket_page": {
+        "sys_id": "6c8697da07716010ebecf2ae7c1ed017",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611246850000,
+        "sys_updated_on": "2021-01-21 18:34:10",
+        "SERVER_MOD_TIME": 1611246850000,
+        "LOCAL_MOD_TIME": 1611256938313,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938313
+      },
+      "hdp_index": {
+        "sys_id": "ce50971a07716010ebecf2ae7c1ed0db",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611245235000,
+        "sys_updated_on": "2021-01-21 18:07:15",
+        "SERVER_MOD_TIME": 1611245235000,
+        "LOCAL_MOD_TIME": 1611256938235,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938235
+      },
+      "hdp_new_incident": {
+        "sys_id": "5143b3de07b16010ebecf2ae7c1ed0f2",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611301138000,
+        "sys_updated_on": "2021-01-22 09:38:58",
+        "SERVER_MOD_TIME": 1611301138000,
+        "LOCAL_MOD_TIME": 1611312098133,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098133
+      },
+      "hdp_my_incidents": {
+        "sys_id": "efd8ea2207b96010ebecf2ae7c1ed047",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611302050000,
+        "sys_updated_on": "2021-01-22 09:54:10",
+        "SERVER_MOD_TIME": 1611302050000,
+        "LOCAL_MOD_TIME": 1611312098262,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098262
+      },
+      "hdp_home_page": {
+        "sys_id": "b94d55970775e010ebecf2ae7c1ed012",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611485374000,
+        "sys_updated_on": "2021-01-24 12:49:34",
+        "SERVER_MOD_TIME": 1611485374000,
+        "LOCAL_MOD_TIME": 1611565535834,
+        "CURRENT_LOCAL_MOD_TIME": 1611565535834
+      }
+    },
+    "Angular ng-templates": {
+      "list-item-default": {
+        "sys_id": "04b3210607f12010ebecf2ae7c1ed086",
+        "sys_updated_on": "2021-01-21 09:37:00",
+        "SERVER_MOD_TIME": 1611214620000,
+        "LOCAL_MOD_TIME": 1611248488241,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488241,
+        "CURRENT_SERVER_MOD_TIME": 1611214620000
+      },
+      "hdMenuTemplateHeader": {
+        "sys_id": "4e86a7ed077d2010ebecf2ae7c1ed003",
+        "sys_updated_on": "2021-01-19 12:08:39",
+        "SERVER_MOD_TIME": 1611050919000,
+        "LOCAL_MOD_TIME": 1611248490302,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490302,
+        "CURRENT_SERVER_MOD_TIME": 1611050919000
+      },
+      "list-item-large": {
+        "sys_id": "34d3a18207f12010ebecf2ae7c1ed0d4",
+        "sys_updated_on": "2021-01-20 16:02:42",
+        "SERVER_MOD_TIME": 1611151362000,
+        "LOCAL_MOD_TIME": 1611248491202,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248491202,
+        "CURRENT_SERVER_MOD_TIME": 1611151362000
+      },
+      "hdpMenuTemplateHeader": {
+        "sys_id": "3ba9c42e07f16010ebecf2ae7c1ed0ad",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611299678000,
+        "sys_updated_on": "2021-01-22 09:14:38",
+        "SERVER_MOD_TIME": 1611299678000,
+        "LOCAL_MOD_TIME": 1611312098251,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098251
+      },
+      "hdpMenuTemplate": {
+        "sys_id": "8eb2ea2e07796010ebecf2ae7c1ed0b7",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611300395000,
+        "sys_updated_on": "2021-01-22 09:26:35",
+        "SERVER_MOD_TIME": 1611300395000,
+        "LOCAL_MOD_TIME": 1611312098186,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098186
+      }
+    },
+    "Instances": {
+      "0a61cc3107fd2010ebecf2ae7c1ed0ae": {
+        "sys_id": "0a61cc3107fd2010ebecf2ae7c1ed0ae",
+        "sys_updated_on": "2021-01-19 13:46:09",
+        "SERVER_MOD_TIME": 1611056769000,
+        "LOCAL_MOD_TIME": 1611248488290,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488290,
+        "CURRENT_SERVER_MOD_TIME": 1611056769000
+      },
+      "1a222192077d2010ebecf2ae7c1ed0eb": {
+        "sys_id": "1a222192077d2010ebecf2ae7c1ed0eb",
+        "sys_updated_on": "2021-01-21 10:05:50",
+        "SERVER_MOD_TIME": 1611216350000,
+        "LOCAL_MOD_TIME": 1611248488383,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488383,
+        "CURRENT_SERVER_MOD_TIME": 1611216350000
+      },
+      "d671c43107fd2010ebecf2ae7c1ed003": {
+        "sys_id": "d671c43107fd2010ebecf2ae7c1ed003",
+        "sys_updated_on": "2021-01-19 13:46:27",
+        "SERVER_MOD_TIME": 1611056787000,
+        "LOCAL_MOD_TIME": 1611248489324,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489324,
+        "CURRENT_SERVER_MOD_TIME": 1611056787000
+      },
+      "My incidents": {
+        "sys_id": "4688f00a07712010ebecf2ae7c1ed03d",
+        "sys_updated_on": "2021-01-20 15:45:19",
+        "SERVER_MOD_TIME": 1611150319000,
+        "LOCAL_MOD_TIME": 1611248490326,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490326,
+        "CURRENT_SERVER_MOD_TIME": 1611150319000
+      },
+      "05a6d71e07716010ebecf2ae7c1ed01d": {
+        "sys_id": "05a6d71e07716010ebecf2ae7c1ed01d",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611246885000,
+        "sys_updated_on": "2021-01-21 18:34:45",
+        "SERVER_MOD_TIME": 1611246885000,
+        "LOCAL_MOD_TIME": 1611256938298,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938298
+      },
+      "2e1a171e07716010ebecf2ae7c1ed0c1": {
+        "sys_id": "2e1a171e07716010ebecf2ae7c1ed0c1",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611247792000,
+        "sys_updated_on": "2021-01-21 18:49:52",
+        "SERVER_MOD_TIME": 1611247792000,
+        "LOCAL_MOD_TIME": 1611256938252,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938252
+      },
+      "3a2a13de07716010ebecf2ae7c1ed0a6": {
+        "sys_id": "3a2a13de07716010ebecf2ae7c1ed0a6",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611247810000,
+        "sys_updated_on": "2021-01-21 18:50:10",
+        "SERVER_MOD_TIME": 1611247810000,
+        "LOCAL_MOD_TIME": 1611256938245,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938245
+      },
+      "96509b1a07716010ebecf2ae7c1ed0d6": {
+        "sys_id": "96509b1a07716010ebecf2ae7c1ed0d6",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611245235000,
+        "sys_updated_on": "2021-01-21 18:07:15",
+        "SERVER_MOD_TIME": 1611245235000,
+        "LOCAL_MOD_TIME": 1611256938144,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938144
+      },
+      "d81adf9e07716010ebecf2ae7c1ed0a0": {
+        "sys_id": "d81adf9e07716010ebecf2ae7c1ed0a0",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611247783000,
+        "sys_updated_on": "2021-01-21 18:49:43",
+        "SERVER_MOD_TIME": 1611247783000,
+        "LOCAL_MOD_TIME": 1611256938173,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938173
+      },
+      "e8b6db1e07716010ebecf2ae7c1ed0ee": {
+        "sys_id": "e8b6db1e07716010ebecf2ae7c1ed0ee",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611246899000,
+        "sys_updated_on": "2021-01-21 18:34:59",
+        "SERVER_MOD_TIME": 1611246899000,
+        "LOCAL_MOD_TIME": 1611256938306,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938306
+      },
+      "eb1adbda07716010ebecf2ae7c1ed0c6": {
+        "sys_id": "eb1adbda07716010ebecf2ae7c1ed0c6",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611247797000,
+        "sys_updated_on": "2021-01-21 18:49:57",
+        "SERVER_MOD_TIME": 1611247797000,
+        "LOCAL_MOD_TIME": 1611256938166,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938166
+      },
+      "2e84a26e07796010ebecf2ae7c1ed02b": {
+        "sys_id": "2e84a26e07796010ebecf2ae7c1ed02b",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611300861000,
+        "sys_updated_on": "2021-01-22 09:34:21",
+        "SERVER_MOD_TIME": 1611300861000,
+        "LOCAL_MOD_TIME": 1611312098202,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098202
+      },
+      "81d9626207b96010ebecf2ae7c1ed0f4": {
+        "sys_id": "81d9626207b96010ebecf2ae7c1ed0f4",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611302247000,
+        "sys_updated_on": "2021-01-22 09:57:27",
+        "SERVER_MOD_TIME": 1611302247000,
+        "LOCAL_MOD_TIME": 1611312098179,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098179
+      },
+      "ace3b79e07b16010ebecf2ae7c1ed074": {
+        "sys_id": "ace3b79e07b16010ebecf2ae7c1ed074",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611254551000,
+        "sys_updated_on": "2021-01-21 20:42:31",
+        "SERVER_MOD_TIME": 1611254551000,
+        "LOCAL_MOD_TIME": 1611312098115,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098115
+      },
+      "e5f9e26207b96010ebecf2ae7c1ed0e8": {
+        "sys_id": "e5f9e26207b96010ebecf2ae7c1ed0e8",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611302281000,
+        "sys_updated_on": "2021-01-22 09:58:01",
+        "SERVER_MOD_TIME": 1611302281000,
+        "LOCAL_MOD_TIME": 1611312098194,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098194
+      },
+      "e9e36a6e07796010ebecf2ae7c1ed027": {
+        "sys_id": "e9e36a6e07796010ebecf2ae7c1ed027",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611300692000,
+        "sys_updated_on": "2021-01-22 09:31:32",
+        "SERVER_MOD_TIME": 1611300692000,
+        "LOCAL_MOD_TIME": 1611312098107,
+        "CURRENT_LOCAL_MOD_TIME": 1611312098107
+      },
+      "34cd99970775e010ebecf2ae7c1ed000": {
+        "sys_id": "34cd99970775e010ebecf2ae7c1ed000",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611483633000,
+        "sys_updated_on": "2021-01-24 12:20:33",
+        "SERVER_MOD_TIME": 1611483633000,
+        "LOCAL_MOD_TIME": 1611565535839,
+        "CURRENT_LOCAL_MOD_TIME": 1611565535839
+      },
+      "a5bdd5970775e010ebecf2ae7c1ed087": {
+        "sys_id": "a5bdd5970775e010ebecf2ae7c1ed087",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611483620000,
+        "sys_updated_on": "2021-01-24 12:20:20",
+        "SERVER_MOD_TIME": 1611483620000,
+        "LOCAL_MOD_TIME": 1611565535820,
+        "CURRENT_LOCAL_MOD_TIME": 1611565535820
+      }
+    },
+    "Widgets": {
+      "Create an Incident": {
+        "sys_id": "1dd06152077d2010ebecf2ae7c1ed078",
+        "sys_updated_on": "2021-01-27 10:58:56",
+        "SERVER_MOD_TIME": 1611737936000,
+        "LOCAL_MOD_TIME": 1611745135875,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611745135875,
+        "CURRENT_SERVER_MOD_TIME": 1611737936000,
+        "lastmodified": 1611745136766
+      },
+      "HD Header Menu": {
+        "sys_id": "2393ef2d077d2010ebecf2ae7c1ed08b",
+        "sys_updated_on": "2021-01-21 22:40:46",
+        "SERVER_MOD_TIME": 1611261646000,
+        "LOCAL_MOD_TIME": 1611312099241,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611312099241,
+        "CURRENT_SERVER_MOD_TIME": 1611261646000
+      },
+      "HD of MyCompany - Custom Side Menu": {
+        "sys_id": "ff239fd807bd2010ebecf2ae7c1ed09a",
+        "sys_updated_on": "2021-01-15 13:12:02",
+        "SERVER_MOD_TIME": 1610709122000,
+        "LOCAL_MOD_TIME": 1611248489185,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489185,
+        "CURRENT_SERVER_MOD_TIME": 1610709122000
+      },
+      "Incidents list": {
+        "sys_id": "ec4ea8ce07312010ebecf2ae7c1ed0ea",
+        "sys_updated_on": "2021-01-21 17:28:13",
+        "SERVER_MOD_TIME": 1611242893000,
+        "LOCAL_MOD_TIME": 1611250099552,
+        "CURRENT_LOCAL_MOD_TIME": 1611250099552,
+        "CURRENT_SERVER_MOD_TIME": 1611242893000,
+        "lastmodified": 1611250072529,
+        "LIVE": true,
+        "UNCHANGED": true
+      },
+      "HD header vertical navbar": {
+        "sys_id": "9c5ab658077d2010ebecf2ae7c1ed026",
+        "sys_updated_on": "2021-01-15 11:23:08",
+        "SERVER_MOD_TIME": 1610702588000,
+        "LOCAL_MOD_TIME": 1611248489404,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489404,
+        "CURRENT_SERVER_MOD_TIME": 1610702588000
+      },
+      "HD header": {
+        "sys_id": "5f053edc073d2010ebecf2ae7c1ed0bd",
+        "sys_updated_on": "2021-01-15 11:21:35",
+        "SERVER_MOD_TIME": 1610702495000,
+        "LOCAL_MOD_TIME": 1611248490277,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490277,
+        "CURRENT_SERVER_MOD_TIME": 1610702495000
+      },
+      "Style locations": {
+        "sys_id": "4a50971a07716010ebecf2ae7c1ed0d9",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611245235000,
+        "sys_updated_on": "2021-01-21 18:07:15",
+        "SERVER_MOD_TIME": 1611245235000,
+        "LOCAL_MOD_TIME": 1611256938200,
+        "CURRENT_LOCAL_MOD_TIME": 1611256938200
+      },
+      "HDP Header Menu": {
+        "sys_id": "5391a22e07796010ebecf2ae7c1ed042",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611300557000,
+        "sys_updated_on": "2021-01-22 09:29:17",
+        "SERVER_MOD_TIME": 1611300557000,
+        "LOCAL_MOD_TIME": 1611312099193,
+        "CURRENT_LOCAL_MOD_TIME": 1611312099193
+      },
+      "Watchlist": {
+        "sys_id": "7f09ac5807ca6410ebecf2ae7c1ed0be",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611754371000,
+        "sys_updated_on": "2021-01-27 15:32:51",
+        "SERVER_MOD_TIME": 1611754371000,
+        "LOCAL_MOD_TIME": 1611761619090,
+        "CURRENT_LOCAL_MOD_TIME": 1611761619090,
+        "lastmodified": 1611761619802
+      }
+    },
+    "Service Portals": {
+      "Help Desk Portal": {
+        "sys_id": "e3b1d35a07716010ebecf2ae7c1ed0c5",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611572631000,
+        "sys_updated_on": "2021-01-25 13:03:51",
+        "SERVER_MOD_TIME": 1611572631000,
+        "LOCAL_MOD_TIME": 1611745467187,
+        "CURRENT_LOCAL_MOD_TIME": 1611745467187
+      }
+    },
+    "Themes": {
+      "HDP Theme": {
+        "sys_id": "875f031a07716010ebecf2ae7c1ed029",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611251563000,
+        "sys_updated_on": "2021-01-21 19:52:43",
+        "SERVER_MOD_TIME": 1611251563000,
+        "LOCAL_MOD_TIME": 1611312099207,
+        "CURRENT_LOCAL_MOD_TIME": 1611312099207
+      }
+    },
+    "Widget Angular Providers": {
+      "urgencyIcon": {
+        "sys_id": "f2d6618607f12010ebecf2ae7c1ed046",
+        "sys_updated_on": "2021-01-20 16:14:03",
+        "SERVER_MOD_TIME": 1611152043000,
+        "LOCAL_MOD_TIME": 1611248489185,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489185,
+        "CURRENT_SERVER_MOD_TIME": 1611152043000
+      }
+    },
+    "Style Sheets": {
+      "HDP Styles": {
+        "sys_id": "b811935a07716010ebecf2ae7c1ed0eb",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611738267000,
+        "sys_updated_on": "2021-01-27 11:04:27",
+        "SERVER_MOD_TIME": 1611738267000,
+        "LOCAL_MOD_TIME": 1611567383228,
+        "CURRENT_LOCAL_MOD_TIME": 1611567383228,
+        "lastmodified": 1611745467285
+      }
+    }
+  },
+  "Notifications": {
+    "Notifications": {
+      "Helpdesk ticket opened for me": {
+        "sys_id": "0efcc8661b6b9c5013582136ec4bcb2a",
+        "sys_updated_on": "2020-10-02 02:18:48",
+        "SERVER_MOD_TIME": 1601594328000,
+        "LOCAL_MOD_TIME": 1611248488217,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248488217,
+        "CURRENT_SERVER_MOD_TIME": 1601594328000
+      },
+      "Helpdesk commented for Helpdesk User": {
+        "sys_id": "e0588cae1b2b9c5013582136ec4bcb8e",
+        "sys_updated_on": "2020-12-18 03:13:55",
+        "SERVER_MOD_TIME": 1608254035000,
+        "LOCAL_MOD_TIME": 1611248489291,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489291,
+        "CURRENT_SERVER_MOD_TIME": 1608254035000
+      },
+      "Helpdesk ticket is Resolved_Closed": {
+        "sys_id": "80df802a1b6b9c5013582136ec4bcb02",
+        "sys_updated_on": "2020-10-02 02:28:04",
+        "SERVER_MOD_TIME": 1601594884000,
+        "LOCAL_MOD_TIME": 1611248490160,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490160,
+        "CURRENT_SERVER_MOD_TIME": 1601594884000
+      },
+      "Helpdesk commented for Helpdesk User ess": {
+        "sys_id": "428d38931bc5ac1013582136ec4bcbfb",
+        "sys_updated_on": "2020-12-18 03:13:45",
+        "SERVER_MOD_TIME": 1608254025000,
+        "LOCAL_MOD_TIME": 1611248491109,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248491109,
+        "CURRENT_SERVER_MOD_TIME": 1608254025000
+      }
+    },
+    "Inbound Email Actions": {
+      "HelpDesk  create": {
+        "sys_id": "c7b9a3d21be79c5013582136ec4bcb2f",
+        "sys_updated_on": "2020-12-18 18:23:19",
+        "SERVER_MOD_TIME": 1608308599000,
+        "LOCAL_MOD_TIME": 1611248489358,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248489358,
+        "CURRENT_SERVER_MOD_TIME": 1608308599000
+      },
+      "HelpDesk  Update": {
+        "sys_id": "3ae89cee1b6b9c5013582136ec4bcb61",
+        "sys_updated_on": "2020-12-18 02:07:51",
+        "SERVER_MOD_TIME": 1608250071000,
+        "LOCAL_MOD_TIME": 1611248491106,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248491106,
+        "CURRENT_SERVER_MOD_TIME": 1608250071000
+      }
+    }
+  },
+  "Data Model": {
+    "Tables": {
+      "Helpdesk": {
+        "sys_id": "0fba20311befd85013582136ec4bcb05",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601404292000
+      },
+      "Categories": {
+        "sys_id": "9d806dbd1b631c5013582136ec4bcbb0",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601414603000
+      }
+    }
+  },
+  "Access Control": {
+    "Roles": {
+      "x_mobi_help.categories_user": {
+        "sys_id": "1431adbd1b631c5013582136ec4bcb24",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601414603000
+      },
+      "x_mobi_help.helpdesk_user": {
+        "sys_id": "6ad938351befd85013582136ec4bcb62",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601404290000
+      }
+    }
+  },
+  "Navigation": {
+    "Modules": {
+      "Categories": {
+        "sys_id": "5031adbd1b631c5013582136ec4bcb2e",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601596288000
+      },
+      "HelpDesk Tickets": {
+        "sys_id": "5e4f63dc1bd8e85013582136ec4bcb12",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1604276539000
+      },
+      "Assigned to me": {
+        "sys_id": "a803906a1b6b9c5013582136ec4bcb9c",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601596821000
+      },
+      "Open": {
+        "sys_id": "aad9f07d1befd85013582136ec4bcba2",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601596808000
+      },
+      "Watched": {
+        "sys_id": "ec6310aa1b6b9c5013582136ec4bcb9c",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487073,
+        "CURRENT_SERVER_MOD_TIME": 1601596826000
+      },
+      "f606d86e1b6b9c5013582136ec4bcb54": {
+        "sys_id": "f606d86e1b6b9c5013582136ec4bcb54",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487073,
+        "CURRENT_SERVER_MOD_TIME": 1601596284000
+      }
+    },
+    "Modules (Mobile)": {
+      "Categories": {
+        "sys_id": "9031e5fd1b631c5013582136ec4bcbab",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487073,
+        "CURRENT_SERVER_MOD_TIME": 1601414603000
+      },
+      "Helpdesks": {
+        "sys_id": "a6d9f07d1befd85013582136ec4bcba9",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248487072,
+        "CURRENT_SERVER_MOD_TIME": 1601404290000
+      }
+    }
+  },
+  "Client Development": {
+    "UI Scripts": {
+      "x_mobi_help.elipsisFilter": {
+        "sys_id": "5c8fc196073d2010ebecf2ae7c1ed0ec",
+        "sys_updated_on": "2021-01-21 09:30:08",
+        "SERVER_MOD_TIME": 1611214208000,
+        "LOCAL_MOD_TIME": 1611248490293,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611248490293,
+        "CURRENT_SERVER_MOD_TIME": 1611214208000
+      },
+      "x_mobi_help.sf.session.reset": {
+        "sys_id": "0bc47eef07b12410ebecf2ae7c1ed0f0",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611573761000,
+        "sys_updated_on": "2021-01-25 13:22:41",
+        "SERVER_MOD_TIME": 1611573761000,
+        "LOCAL_MOD_TIME": 1611745467215,
+        "CURRENT_LOCAL_MOD_TIME": 1611745467215
+      }
+    }
+  },
+  "Server Development": {
+    "Script Includes": {
+      "HDPUtils": {
+        "sys_id": "86fb919e073d2010ebecf2ae7c1ed09b",
+        "sys_updated_on": "2021-01-28 16:56:50",
+        "SERVER_MOD_TIME": 1611845810000,
+        "LOCAL_MOD_TIME": 1611853008608,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1611853008608,
+        "CURRENT_SERVER_MOD_TIME": 1611845810000,
+        "lastmodified": 1611853009681
+      }
+    },
+    "Business Rules": {
+      "Test": {
+        "sys_id": "452491130775e010ebecf2ae7c1ed05f",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611581234000,
+        "sys_updated_on": "2021-01-25 15:27:14",
+        "SERVER_MOD_TIME": 1611581234000,
+        "LOCAL_MOD_TIME": 1611673695083,
+        "CURRENT_LOCAL_MOD_TIME": 1611673695083,
+        "lastmodified": 1611673695880
+      },
+      "Test2": {
+        "sys_id": "8e4a19930775e010ebecf2ae7c1ed080",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1611666493000,
+        "sys_updated_on": "2021-01-26 15:08:13",
+        "SERVER_MOD_TIME": 1611666493000,
+        "LOCAL_MOD_TIME": 1611673691616,
+        "CURRENT_LOCAL_MOD_TIME": 1611673691616,
+        "lastmodified": 1611673692682
+      }
+    }
+  }
+}

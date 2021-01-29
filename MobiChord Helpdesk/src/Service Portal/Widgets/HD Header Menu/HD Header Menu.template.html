@@ -1,0 +1,14 @@
+<ul class="nav navbar-nav menu-vertical-ui" aria-label="${Header menu}" role="menubar">
+  <div class="header-loader" ng-class="{'invisible': !loadingIndicator}">
+    <div class="hidden-xs sp-loading-indicator la-sm">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <li ng-repeat="item in visibleItems"
+      ng-click="item.sys_name==='Incidents' ? toggleNavBar() : null"
+      class="list-group-i"
+      ng-include="'hdMenuTemplateHeader'"
+      role="presentation"></li>
+</ul>

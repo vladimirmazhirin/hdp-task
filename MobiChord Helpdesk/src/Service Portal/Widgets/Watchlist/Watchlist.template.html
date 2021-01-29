@@ -1,0 +1,28 @@
+<div class="panel panel-primary">
+
+	<div class="panel-heading">
+		<h4 class="panel-title pull-left">Watch list</h4>
+		<div class="clearfix"></div>
+	</div>
+
+	<div class="panel-body">
+		<form ng-submit="save()">
+
+			<sn-record-picker
+				field="watch_list"
+				table="'sys_user'"
+				display-field="'name'"
+				display-fields="'email'"
+				search-fields="'email'"
+				value-field="'sys_id'"
+				default-query="'active=true'"
+				multiple="true">
+			</sn-record-picker>
+
+			<div class="watch_list-submit-btn">
+				<button type="submit" class="btn btn-primary">Save</button>
+			</div>
+
+		</form>
+	</div>
+</div>
