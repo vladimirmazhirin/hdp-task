@@ -21,6 +21,8 @@ HDPUtils.prototype = {
 				attachment.writeBase64(incidentGR, file.fileName, file.fileType, file.fileContent.split(',')[1]);
 			});
 		}
+
+		
 	},
 
 	getRecentIncidents: function ($sp) {
